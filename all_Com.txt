@@ -1,0 +1,37 @@
+1https://cloud.mongodb.com/v2/6224252c6c094573fbff29df#clusters
+ /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link
+
+npm i @metamask/detect-provider
+
+SKIP_PREFLIGHT_CHECK=true
+npm i react-scripts@4.0.3
+npm install -g npm@8.19.1
+npm i web3
+
+npm i @truffle/contract
+
+const DB = "mongodb+srv://jugal786:jugal786@cluster0.sgg8t.mongodb.net/ones?retryWrites=true&w=majority";
+
+
+npm i bcrypt
+
+import React,{useState,useEffect} from 'react'
+
+import "./style/Dapp.css"
+
+import Web3 from "web3"
+
+import detectEthereumProvider from '@metamask/detect-provider'
+
+import Abi from "./Abi.json"
+
+ "proxy": "http://localhost:9000",
+
+https://m.jagranjosh.com/current-affairs/indian-passport-visa-free-countries-2022-indian-passport-holders-can-visit-these-60-countries-visa-free-1658383769-1
+////////////////////////
+npm cache clean --force
+npm install -g yarn
+
+yarn global add create-react-app
+
+create-react-app <projectname>

@@ -1,0 +1,54 @@
+//explorer.solana.com
+
+1:://solana-keygen new
+ public //4zMhaireRprXVHFNBxJjJnwPvXDWD2VJA3z8PKr3wX8X
+ EWURWvDEb3749kJtWjPoUGzTprpEGfXP7NhJersiCybf
+
+ 2://check public key--solana-keygen pubkey
+
+ 3::check balance -- solana balance --url devnet
+
+ 4:://add sol toekn---solana airdrop 2  EWURWvDEb3749kJtWjPoUGzTprpEGfXP7NhJersiCybf --url devnet
+
+
+ 5::create a token  //cargo install spl-token-cli
+
+ 6::/spl-token create-token --url devnet
+ Creating token 9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt
+Address:  9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt
+Decimals:  9
+
+
+7:token account --->spl-token create-account 9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt --url
+ devnet
+Creating account 2g7rqjEoEYaJwGxULbyt7N1h7kjdzCJJ6PrDcAofhwTH
+
+8::spl-token balance  9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt --url devnet
+
+
+9::/create token with number // spl-token mint  9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt 10000  --url devnet
+Minting 10000 tokens
+  Token: 9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt
+  Recipient: 2g7rqjEoEYaJwGxULbyt7N1h7kjdzCJJ6PrDcAofhwTH
+Signature: m2XLp9aNJuVdZVkaq46MEeSTtEtNsbwRpDPNdcQX7ebTsM94sHQB697FGrJenbKm84pkXDA6DAsZD1eZ6stq5BB
+
+
+10:://limits token genterion :/spl-token authorize  9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt mint --disable  --url devnet
+Updating 9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt
+  Current mint authority: EWURWvDEb3749kJtWjPoUGzTprpEGfXP7NhJersiCybf
+  New mint authority: disabled
+
+  11:://buring --> spl-token burn 9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt 100 --url dedvnet
+
+
+  Dx2hfqbUAPmcsG1zEGzk3w4iWiFtccXnCgVCxfoztTuu wallet address
+
+
+  spl-token transfer 9vGMYHhpe9L5cf5mVJXuNaa4eAwEv7tBVdBgv4iVv5Mt 10000  Dx2hfqbUAPmcsG1zEGzk3w4iWiFtccXnCgVCxfoztTuu --url devnet --allow-unfunded-recipient --fund-recipient
+Transfer 10000 tokens
+  Sender: 2g7rqjEoEYaJwGxULbyt7N1h7kjdzCJJ6PrDcAofhwTH
+  Recipient: Dx2hfqbUAPmcsG1zEGzk3w4iWiFtccXnCgVCxfoztTuu
+  Recipient associated token account: 9mQVYVyEaKCRxEtt3gvJjUx6rbBB76S2pyXJ3bn5GT7H
+  Funding recipient: 9mQVYVyEaKCRxEtt3gvJjUx6rbBB76S2pyXJ3bn5GT7H (0.00203928 SOL)
+
+Signature: 67K7WRrwDKuYLbj8j6CrhamXWadWj6EXchQxLpQnvGnaQ1Tggvkys8ihgwFDUE48CF597kGb1jQXPd89ABxH6PWy
